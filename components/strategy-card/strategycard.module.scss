@@ -1,0 +1,29 @@
+@media only screen and (min-width:768px){
+    .mainContainer{
+        width: 48%;
+        height: 400px;
+        // background-color: red;
+        display: flex;
+        flex-direction: column;
+    .titleText{
+        padding: 10px;
+        font-weight: 700;
+    }
+    .strategyImage1{
+    //  background-color: green;
+    width: 35%;
+    align-self: center;
+    height: 100px;
+    .strategyImage{
+        width: 100%;
+        height: 100px;
+    }
+    }
+    .descriptionText{
+        padding: 10px;
+        text-align: justify;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    }
+}

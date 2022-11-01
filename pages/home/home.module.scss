@@ -1,0 +1,119 @@
+@media only screen and (min-width: 786px) {
+	.mainContainer {
+		width: 100%;
+		height: 100%;
+		margin: 0px auto;
+		.banner {
+			width: 100%;
+			height: auto;
+			display: flex;
+			justify-content: space-evenly;
+			margin-top: 50px;
+			.bannerTitle {
+				width: 35%;
+				display: flex;
+				flex-direction: column;
+				.bannerText {
+					font-size: 48px;
+					margin-top: 20%;
+					padding-bottom: 5px;
+					font-family: 'Kanit', sans-serif;
+				}
+				.buttonStyle {
+					margin: 8% 0px 0px 0%;
+				}
+			}
+			.bannerImage {
+				width: 43%;
+				.bpicture {
+					width: 100%;
+					margin-left: 15%;
+				}
+			}
+		}
+		.growthStrategy {
+			width: 100%;
+			height: 100%;
+			margin: 10% 0%;
+			display: flex;
+			justify-content: space-evenly;
+		
+			.growthStrategyTitle {
+				width: 30%;
+				margin: 0% 5% 0% 5%;
+				.textTitle {
+					color: var(--red1);
+					font-family: 'Kanit', sans-serif;
+					font-size: var(--XXXXXXLarge);
+				}
+				.text {
+					color: var(--red1);
+					font-family: 'Kanit', sans-serif;
+					padding-top: 20px;
+					font-weight: 100;
+					font-size: var(--XXXXXLarge);
+				}
+				.buttonStrategy {
+					margin-top: 60px;
+					
+				}
+			}
+			.digitalStrategy {
+				width: 52%;
+				margin-left:0;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+		}
+		.caseStudy{
+			width: 100%;
+			height: 530px;
+			margin-bottom: 10%;
+			display: flex;
+			flex-direction: column;
+			.titleText{
+				text-align: center;
+				font-weight: 100;
+				font-size: var(--XXXXLarge);
+				font-family: 'Kanit', sans-serif;
+				color: var(--red1);
+			}
+			.caseCards{
+				width: 90%;
+				height: 300px;
+				margin: 0px auto;
+				display: flex;
+				justify-content: space-between;
+				margin-top:5%;
+			}
+			.buttonView{
+				align-self: center;
+				margin-top: 5%;			
+			}
+		}
+		.awards{
+			width: 100%;
+			height: 100%;
+			margin-bottom: 8%;
+			display: flex;
+			flex-direction: column;
+				.titleText {
+					text-align: center;
+					font-weight: 300;
+					font-size: var(--XXXXLarge);
+					font-family: 'Kanit', sans-serif;
+					color: var(--red1);
+				}
+				.awardPicture{
+					width: 80%;
+					height: 100%;
+					display: flex;
+					justify-content: space-evenly;
+					flex-wrap: wrap;
+					margin: 5% auto 0px auto;
+				}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+@media only screen and (min-width:768px){
+    .contactUsContainer {
+            width: 100%;
+            height: 450px;
+            background-color: var(--red1);
+    
+            .title {
+                text-align: center;
+                color: var(--white1);
+                font-weight: 100;
+                font-size: var(--XXXLarge);
+                padding: 30px 0px;
+            }
+    
+            .contactForm {
+                width: 47%;
+                height: 200px;
+                margin: 30px auto 0px auto;
+                // background-color: bisque;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+    
+                .formInput {
+                    width: 300px;
+                    height: 48px;
+                    margin: 0% 1% 2% 1%;
+                    padding: 5px;
+                    font-size: var(--small);
+                }
+    
+                .btnSubmit {
+                    margin: 30px auto 0px 150px;
+                    width: 300px;
+                    background-color: var(--white1);
+                    box-shadow: none;
+                    border: 1px solid black;
+                }
+    
+                .btnSubmitText {
+                    font-size: var(--small);
+                    color: var(--black0);
+                }
+            }
+        }
+}

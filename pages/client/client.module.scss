@@ -1,0 +1,49 @@
+@media only screen and (min-width:768px){
+    .mainContainer {
+            width: 100%;
+            height: 100%;
+            .clientContainer {
+                width: 100%;
+                height: 300px;
+                margin-top: 3%;
+                .title {
+                    text-align: center;
+                    font-weight: 300;
+                    color: var(--red1);
+                    font-size: var(--XXXXXXLarge);
+                    font-family: 'Kanit';
+                    padding: 20px;
+                }
+                .description {
+                    width: 60%;
+                    height: 300px;
+                    text-align: justify;
+                    font-size: var(--small);
+                    margin: 0px auto;
+                    color: var(--black0);
+                }
+            }
+            .mncContainer {
+            width: 100%;
+            height: 100%;
+            margin-bottom:8%;
+            .title {
+            text-align: center;
+            font-weight: 300;
+            color: var(--red1);
+            font-size: var(--XXXXXLarge);
+            font-family: 'Kanit';
+            padding: 20px;
+        }
+        .mncLogo{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin:3% auto 0px auto;
+        }
+    }
+}
+}

@@ -1,0 +1,144 @@
+@media only screen and (min-width:768px){
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    .aboutUsContainer{
+        width: 100%;
+        height: 300px;
+        margin-top: 3%;
+        .title{
+            text-align: center;
+            font-weight: 300;
+            color:var(--red1);
+            font-size: var(--XXXXXXLarge);
+            font-family: 'Kanit';
+            padding: 20px;
+        }
+        .description{
+            width: 60%;
+            height: 300px;
+            text-align: justify;
+            font-size: var(--small);
+            margin: 0px auto;
+            color: var(--black0);
+        }
+    }
+    .meetContainer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        // background-color: rgb(146, 240, 193);
+        margin-bottom: 10%;
+        .title {
+            text-align: center;
+            font-weight: 100;
+            color: var(--red1);
+            font-size: var(--XXXXLarge);
+            font-family: 'Kanit';
+            padding: 20px;
+            margin-bottom: 2%;
+        }
+        .personContainer{
+            width: 28%;
+            height: 100%;
+            margin: 0px auto;
+            // background-color: beige;
+            // display: flex;
+            // flex-direction: row;
+            // justify-content: space-between;
+            .person1{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                // background-color: orange;
+                .imageContainer{
+                    width: 50%;
+                    height: 200px;
+                    // border-radius: 50px;
+                    // background-color: blue;
+                    align-self: center;
+                    .founderImage{
+                        width: 100%;
+                            height: 200px;
+                            border-radius: 150px;
+                    }
+                }
+                .personName{
+                    font-family: 'Kanit';
+                    font-size: var(--large);
+                    padding: 20px 0px;
+                }
+                .personContent{
+                    font-weight: 100;
+                    font-family: 'Kanit';
+                    padding-top: 5px;
+                }
+            }
+            .person2 {
+                width: 48%;
+                .personName {
+                        font-family: 'Kanit';
+                        font-size: var(--large);
+                    }
+                
+                    .personContent {
+                        font-weight: 100;
+                        font-family: 'Kanit';
+                        padding-top: 5px;
+                    }
+            }
+        }
+        .buttonView{
+            align-self: center;
+            margin-top:8%;
+        } 
+    }
+    .testimonialsContainer {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 10%;
+            .title {
+                text-align: center;
+                font-weight: 100;
+                color: var(--red1);
+                font-size: var(--XXXXLarge);
+                font-family: 'Kanit';
+                margin-bottom: 5%;
+            }
+            .testinomialDetail{
+                width:80%;
+                height:100%;
+                margin: 0px auto;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content:space-between;
+            }
+    }
+    .awards {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 5%;
+            display: flex;
+            flex-direction: column;
+
+            .titleText {
+                text-align: center;
+                font-weight: 100;
+                font-size: var(--XXXXLarge);
+                font-family: 'Kanit';
+                color: var(--red1);
+            }
+            .awardPicture {
+                width: 80%;
+                height: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                margin: 5% auto 0px auto;
+            }
+    
+    }
+}
+}

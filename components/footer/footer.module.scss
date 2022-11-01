@@ -1,0 +1,76 @@
+@media only screen and (min-width: 768px) {
+	.mainContainer {
+		width: 100%;
+		height: 100%;
+		background-color: var(--black2);
+		color: var(--white1);
+		position: relative;
+		bottom: 0;
+		.container {
+			width: 80%;
+			height: 300px;
+			// background-color: rgb(113, 138, 138);
+			margin: auto;
+			display: flex;
+			justify-content: space-between;
+			.visitUs {
+				width: 20%;
+				margin-top: 5%;
+				.visitUsTitle {
+					margin: 0px 0px 5px 0px;
+				}
+				.textData {
+					padding: 5px 0px;
+					font-weight: var(--font-medium);
+					cursor: pointer;
+				}
+			}
+			.callUs {
+				width: 20%;
+				margin-top: 5%;
+				.callUsTitle {
+					margin: 0px 0px 5px 0px;
+				}
+				.textData {
+					padding: 5px 0px;
+					font-weight: var(--font-medium);
+					cursor: pointer;
+				}
+			}
+			.services {
+				width: 20%;
+				margin-top: 5%;
+				.serviceTitle {
+					margin: 0px 0px 5px 0px;
+				}
+				.textData {
+					padding: 5px 0px;
+					font-weight: var(--font-medium);
+					cursor: pointer;
+				}
+			}
+			.followUs {
+				width: 11%;
+				margin-top: 5%;
+				.followTitle {
+					margin: 0px 0px 5px 0px;
+				}
+				.textData {
+					padding: 5px 0px;
+					font-weight: var(--font-medium);
+					cursor: pointer;
+				}
+			}
+		}
+		.divideLine {
+			margin: 30px auto 0px auto;
+			width: 97%;
+		}
+		.copyRightText {
+			color: var(--white1);
+			font-size: 14px;
+			text-align: center;
+			padding: 20px;
+		}
+	}
+}

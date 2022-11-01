@@ -1,0 +1,23 @@
+@media only screen and (min-width:768px){
+    .button{
+        width: 170px;
+        height: 48px;
+        border: none;
+        background-color: var(--red1);
+        cursor: pointer;
+        box-shadow: 1px 1px 2px 2px lightgray;
+        padding: 5px;
+        &:hover{
+            background-color: var(--white1);
+            border: 2px solid var(--red1);
+            box-shadow: none;
+            color: var(--red1);
+            padding: 5px;
+        }
+        .text{
+            text-align: center;
+            font-size: var(--small);
+            font-weight: var(--font-Xbold);
+        }
+    }
+}
